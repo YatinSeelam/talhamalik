@@ -57,7 +57,7 @@ const ROLES = [
     role: "Chemistry Teaching Intern",
     company: "Rutgers University",
     href: "https://chem.rutgers.edu/academics/undergraduate-program/undergraduate-course-descriptions/course-descriptions/1829-01-160-493-internship-in-chemistry",
-    desc: "Tutored chemistry students weekly — improving comprehension & assessment outcomes.",
+    desc: "tutored chemistry students weekly — improving comprehension & assessment outcomes.",
     badge: null,
   },
 ];
@@ -94,7 +94,7 @@ export default function Home() {
           </span>
         </h1>
 
-        <p className="tagline">Building &amp; scaling creator-led companies.</p>
+        <p className="tagline">building &amp; scaling creator-led companies.</p>
 
         <div className="roles">
           {ROLES.map((r) => (
