@@ -40,7 +40,7 @@ const ROLES = [
     company: "Creator Collective",
     href: "https://www.trycreatorcollective.com/",
     desc: "scaling UGC creators $15K+/mo creative scripting & content strategies for 50+ startups, 100M+ client views generated",
-    badge: "Scaling",
+    badge: null,
   },
   {
     img: "/peptide.png",
