@@ -34,7 +34,7 @@ const SOCIALS = [
 
 const ROLES = [
   {
-    initials: "CC",
+    img: "/ccc.webp",
     cls: "cc",
     role: "COO",
     company: "Creator Collective",
@@ -43,7 +43,7 @@ const ROLES = [
     badge: "Scaling",
   },
   {
-    initials: "P",
+    img: "/peptide.png",
     cls: "pep",
     role: "Growth",
     company: "Peptide AI",
@@ -52,7 +52,7 @@ const ROLES = [
     badge: null,
   },
   {
-    initials: "R",
+    img: "/rutgers.png",
     cls: "rut",
     role: "Chemistry Teaching Intern",
     company: "Rutgers University",
@@ -105,7 +105,14 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <span className={`logo ${r.cls}`}>{r.initials}</span>
+              <span className={`logo ${r.cls}`}>
+                <Image
+                  src={r.img}
+                  alt={`${r.company} logo`}
+                  width={46}
+                  height={46}
+                />
+              </span>
               <span className="role-body">
                 <span className="role-title">
                   {r.role} @ <span className="co">{r.company}</span>
