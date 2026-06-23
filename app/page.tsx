@@ -39,7 +39,7 @@ const ROLES = [
     role: "COO",
     company: "Creator Collective",
     href: "https://www.trycreatorcollective.com/",
-    desc: "Scaling UGC creators to $15K+/mo. Creative scripting & content strategy for 50+ startups — 100M+ client views generated.",
+    desc: "scaling UGC creators $15K+/mo creative scripting & content strategies for 50+ startups, 100M+ client views generated",
     badge: "Scaling",
   },
   {
@@ -48,7 +48,7 @@ const ROLES = [
     role: "Growth",
     company: "Peptide AI",
     href: "https://peptideai.co/",
-    desc: "3,000+ active users, 150+ paying customers. KOL growth campaigns — backed by Launch Accelerator.",
+    desc: "3,000 active users, 150+ active paying customers, KOL growth campaign, backed by Launch Accelerator",
     badge: null,
   },
   {
@@ -57,7 +57,7 @@ const ROLES = [
     role: "Chemistry Teaching Intern",
     company: "Rutgers University",
     href: "https://chem.rutgers.edu/academics/undergraduate-program/undergraduate-course-descriptions/course-descriptions/1829-01-160-493-internship-in-chemistry",
-    desc: "tutored chemistry students weekly — improving comprehension & assessment outcomes.",
+    desc: "tutored chemistry students weekly, improving comprehension and assessment outcomes.",
     badge: null,
   },
 ];
